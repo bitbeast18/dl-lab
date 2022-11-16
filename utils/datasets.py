@@ -1,12 +1,20 @@
-class ProcessedHAPTTrainValDataset():
+from torch.utils.data import Dataset
+
+class HAPTTrain(Dataset):
+    def __init__():
+        pass
+
+    def __len__():
+        pass
+
+    def __getitem__():
+        pass
+
+class HAPTTest(Dataset):
     pass
 
-class ProcessedHAPTTestDataset():
+class RawHAPTTrain(Dataset):
     pass
 
-class RawHAPTTrainValDataset():
+class RawHAPTTTest(Dataset):
     pass
-
-class RawHAPTTTestDataset():
-    pass
-
